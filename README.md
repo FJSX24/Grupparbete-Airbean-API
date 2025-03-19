@@ -17,7 +17,7 @@ https://github.com/users/zocom-christoffer-wallenberg/projects/11/views/1
 
 **För Godkänt:**
 * Uppfyller alla krav av funktionalitet.
-* Använder sig av Express och NeDB som databas (en annan databas exempelvis MongoDB är okej ifall alla i gruppen är överens om detta).
+* Använder sig av Express och PostgreSQL som databas.
 * All input som skickas i url eller i body ska valideras i en middleware och ifall det är fel data ska ett felmeddelande skickas tillbaka.
 * Det ska enbart gå att lägga till produkter som finns i menyn, ifall någon annan produkt skickas med så ska ett felmeddelande skickas tillbaka. Även pris ska kontrolleras, allt detta ska göras i en middleware.
 * När ett konto skapas ska detta kopplas till ett slumpat användarid (här används fördelaktigt ett bibliotek) där användarid:et sedan kan användas för att hämta orderhistorik, användarnamn ska alltså ej skickas med i url för att hämta orderhistorik.
@@ -25,11 +25,6 @@ https://github.com/users/zocom-christoffer-wallenberg/projects/11/views/1
 **För Väl Godkänt:**
 * Allt i godkänt
 * Kunna se pågående beställningar och tidigare beställningar (man kollar när beställningen lades (klockslag) gentemot vad klockan är nu. Här är det godkänt att använda något bibliotek för datum och tidshantering (ex. `moment.js` eller `date-fns`).
-* Ert projekt använder sig av en MVC-arkitektur.
-
-## Handledning
-
-Handledning för onsdagens lektion bokas här: https://calendly.com/christoffer-wallenberg/handledning-js22?month=2023-04
 
 ### Inlämning
-Inlämning sker på Awesomo med en länk till ert Github repo med er kod senast **11/4 23:59**.
+Inlämning sker på Canvas med en länk till ert Github repo med er kod senast **23/5 23:59** (Varje grupp meddlem för en egen inlämning men av samma repo).
